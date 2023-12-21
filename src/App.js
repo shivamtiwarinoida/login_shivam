@@ -4,8 +4,8 @@ import SignIn from "./FormComponents/form-components/Signup";
 import Login from "./FormComponents/form-components/Login";
 import Menu from "./FormComponents/form-components/Menu";
 import Confirm from "./FormComponents/form-components/Confirm";
-import EventPage from "./FormComponents/form-components/EventPage";
-import SideBar from "./FormComponents/form-components/SideBar";
+import EventPage from "./FormComponents/event-component/EventPage";
+import SideBar from "./FormComponents/event-component/SideBar";
 
 function App() {
   return (
