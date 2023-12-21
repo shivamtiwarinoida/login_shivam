@@ -1,0 +1,98 @@
+.event-cover{
+    background:rgba(7, 7, 7, 0.72);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    height: auto;
+    min-height: 100vh;
+    width: 100%;
+    z-index: 5;
+}
+
+.hidden{
+    display: none;
+}
+
+.sidebar{
+    font-family: 'Black ops one';
+    background-color:rgba(255, 255, 255, 0.04);
+    position: fixed;
+    padding: 0.6rem;
+    border-radius: 0.9rem;
+    min-height: 66vh;
+    list-style: none;
+    display: flex;
+    top:20%;
+    margin-left: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar-big{
+    font-family: 'Black ops one';
+    z-index: 20;
+    color:white;
+    background: rgba(255, 255, 255, 0.12);
+    position: fixed;
+    padding: 0.8rem 0.6rem;
+    border-radius: 0.2rem;
+    min-height: 66vh;
+    width: auto;
+    list-style: none;
+    display: flex;
+    top:20%;
+    margin-left: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.sidebar-big-li{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+}
+
+.sidebar-big-li img{
+    margin-right: 0.6rem;
+}
+
+.side-link{
+    text-decoration: none;
+    color:white;
+}
+
+
+.sidebar-big-li:hover{
+    background-color: rgb(0,153,255);
+
+}
+
+.sidebar-li{
+    cursor: pointer;
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+}
+
+.not-apply{
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+}
+
+.not-apply-big{
+    display: flex;
+    align-items: center;
+    justify-content: end !important;
+    cursor: pointer;       
+}
+
+.sidebar-li:hover{
+    background-color: rgb(0,153,255);
+}
+
